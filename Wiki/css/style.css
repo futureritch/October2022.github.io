@@ -7,7 +7,3 @@ h1 {
     border: 4px green solid;
 }
 
-body {
-    background-image: url("../assets/images/bg.jpg");
-    background-size: cover;
-}
