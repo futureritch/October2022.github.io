@@ -1,0 +1,13 @@
+h1 {
+    color: salmon;
+    background-color: black;
+    font-family: 'Trebuchet MS' 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, snas-serif; 
+    letter-spacing: 10px;
+    text-align: center; 
+    border: 4px green solid;
+}
+
+body {
+    background-image: url("../assets/images/bg.jpg");
+    background-size: cover;
+}

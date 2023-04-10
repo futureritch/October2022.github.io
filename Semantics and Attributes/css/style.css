@@ -1,0 +1,39 @@
+img {
+    height: 100px;
+    width :250px;   
+}
+
+img {
+    float: left;
+
+}
+
+#section-1 {
+    background-color: white;
+}
+
+header {
+    background-color: salmon;
+    padding: 20px;
+    text-align: center;
+}
+
+#section-2 {
+    background-color: white;
+}
+
+#section-3 {
+    background-color: white;
+}
+
+body {
+    background-color: lightcyan;
+}
+
+nav {
+    background-color: salmon;
+}
+
+footer {
+    background-color: white;
+}
