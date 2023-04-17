@@ -1,0 +1,26 @@
+table {
+    border-collapse: collapse;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+tr:nth-of-type(1) {
+    background-color: rgb(red, green, blue);
+    
+}
+
+td, th {
+    padding: 10px;
+}
+
+tr:nth-of-type(3) {
+    background-color: lightgreen
+    color: rgb(red, green, blue);
+    font-weight: 600;
+    border-bottom: black 1px solid;
+    border-top: black 1px solid;
+}
+
+tr:nth-of-type(4) {
+    border-bottom: rgb(red, green, blue) 2px solid;
+}
