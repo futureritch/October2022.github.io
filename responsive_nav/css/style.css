@@ -1,14 +1,25 @@
 ul {
     display:flex;
     padding-left: 0;
+    background-color: white;
+    padding: 30px;
+    margin: 0;
+    justify-content: flex-end;
+    font-family: 'Courier New', Courier, monospace;
+
 }
 
 li{
     list-style: none;
+    padding: 10px;
+}
+
+#home1 {
+    margin-right: auto;
 }
 
 .dropdown {
-    background-color:red;
+    background-color:lightslategray;
     position:absolute;
     opacity:0;
     display: flex;
@@ -17,4 +28,8 @@ li{
 
 .trigger-dropdown:hover .dropdown {
     opacity:1;
+}
+
+body {
+    background-color: gray;
 }
