@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: black;
 }
 
 @font-face {
@@ -8,7 +9,7 @@ body {
 }
 
 header {
-    background-image: url("./images/hulu-bg.jpeg");
+    background: radial-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.664)), url("../ASSETS/hulu-bg.jpeg");
     background-position: center;
     background-size: cover;
     display: flex;
@@ -28,5 +29,21 @@ header {
 
 #banner {
     display: flex;
+    
 }
 
+#banner img {
+    height: 10vh;
+
+}
+#trio-bundle {
+    text-align: center;
+}
+
+nav {
+    text-align: right;
+    display: flex;
+    height: 4vh;
+    justify-content:space-between;
+
+}
