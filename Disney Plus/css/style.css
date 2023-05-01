@@ -2,19 +2,82 @@ nav {
     margin: 0;
     display: flex;
     height: 4vh;
-    justify-content: right;
+    justify-content: space-between;
+    color: transparent;    
+}
+
+#login {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: aliceblue;
 }
 
 body {
     background-color: #040714;
 }
 
-#shows {
-    
-
+#shows img{
+    height: 30vh;
 }
-
 
 #bundle {
-    align-self: center;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+    background-image: url(../ASSETS/disney+bg.jpeg);
+    height: 60vh;
 }
+
+#bundle img {
+    height: 7vh;
+}
+
+
+
+
+footer {
+    justify-content: space-between;
+    display: flex;
+    color: aliceblue;
+}
+
+#foot {
+    display: flex;
+    text-size-adjust: ;
+}
+
+#bundle button {
+    background-color: #0063e5;
+    border: none;
+    height: 3vh;
+    width: 20vh;
+    color: aliceblue;
+    
+}
+
+#trend {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+hr {
+    background:none;
+    clear:both;
+    float:none;
+    width:100%;
+    height:1px;
+    border:none;
+    margin:-1px 0;
+}
+
+footer img {
+    height: 4vh;
+    
+}
+
+
+
