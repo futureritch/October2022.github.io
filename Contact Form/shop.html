@@ -1,236 +1,42 @@
 <!DOCTYPE html>
-
 <html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="css/style.css">
+        <title>Contact Form</title>
+    </head>
+    <body>
 
-    <head>
+         <form action="https://getform.io/f/2540ed54-1065-4420-a7ad-a4be4995f0da" method="post" class="form">
 
-        <meta charset="UTF-8">
+        <fieldset>  
+            <h1>GET IN TOUCH!</h1>
+            
+            <input type="text" name="fname" id="fname" placeholder="your first name"
+            required minlength="2" maxlength="30" class="ph"> 
+            
+            <input type="text" name="lname" id="lname" placeholder="your last name"
+            required minlength="2" maxlength="30" class="ph">
 
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <input type="email" name="email" id="email" placeholder="email"
+            required minlength="2" maxlength="30" class="ph">
+            
+            <input type="password" name="psw" id="psw" placeholder="password"
+            required minlength="2" maxlength="30" class="ph">
+        
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <h3>let us know how we can help!</h3>
 
-        <link rel="stylesheet" href="css/style.css">  
+            <input type="text" name="msg" id="msg" placeholder="write something!" class="ph" required minlength="3" maxlength="250">
 
-        <title>Inputs</title>
+            <input type="submit" name="submit" value="send it!" id="submitbtn" >
+        </fieldset>
 
-    </head>
 
-    <body>
+         </form>
 
-        <!--Text input-->
 
-
-
-
-        <input type="text"
-
-        placeholder="Full Name">
-
-
-
-
-        <!--password Input-->
-
-
-
-
-        <input type="password" name="" id=""
-
-        placeholder="Password">
-
-
-
-
-        <!--Number Input-->
-
-
-
-
-        <input type="number" name="" id=""
-
-        placeholder="Number">
-
-
-
-
-        <!--color input-->
-
-
-
-
-        <input type="color">
-
-
-
-
-        <!--file input-->
-
-
-
-
-        <input type="file">
-
-        <!-- email input -->
-
-
-
-
-        <input type="Email" name="" id=""
-
-        placeholder="email">
-
-          <!-- radio -->
-
-
-
-
-          <input type="radio" name="" id="">
-
-
-
-
-        <!-- date input -->
-
-
-
-
-        <input type="date">
-
-      
-
-        <!-- checkbox -->
-
-        <input type="checkbox" name="" id="">
-
-        <!-- submit -->
-
-        <input type="submit" name="" id="">
-
-        <!-- shipping Info -->
-
-        <form action="">
-
-            <fieldset>
-
-                <legend>Shipping Address</legend>
-
-                <label for="FirstName">First Name</label>
-
-                <input type="text" name="FirstName" id="FirstName"
-
-                placeholder="First Name">
-
-
-
-
-                <label for="LastName">Last Name</label>
-
-                <input type="text"name="LastName" id="LastName"
-
-                placeholder="last Name">
-
-
-
-
-                <label for="StreetAddress">Street Address</label>
-
-                <input type="text"name="StreetAddress" id="StreetAddress"
-
-                placeholder="street address">
-
-
-
-
-                <label for="City">City</label>
-
-                <input type="text"name="City" id="City"
-
-                placeholder="City">
-
-
-
-
-                <label for="State">State</label>
-
-                <input type="text"name="State" id="State"
-
-                placeholder="state">
-
-
-
-
-                <label for="Zip">Zip</label>
-
-                <input type="text"name="Zip" id="Zip"
-
-                placeholder="Zip">
-
-
-
-
-                <label for="Unit#">Unit#</label>
-
-                <input type="text"name="Unit#" id="Unit#"
-
-                placeholder="Unit#">
-
-            </fieldset>
-
-            <fieldset>
-
-                <legend>Payment Info</legend>
-
-                <!-- CC Number -->
-
-                <label for="ccNum">Credit Card Number</label>
-
-                <input type="text" name="ccNum" id="ccNum"
-
-                placeholder="Credit Card number">
-
-                <label for="exp">Exp. month/Year</label>
-
-                <input type="month" name="exp" id="exp"
-
-                placeholder="exp">
-
-                <!-- CCV -->
-
-                <label for="CCV">CCV</label>
-
-                <input type="Number" name="CCV" id="CCV"
-
-                placeholder="CCV">
-
-
-
-
-            </fieldset>
-
-            <fieldset>
-
-                <legend>Shipping Options</legend>
-
-            </fieldset>
-
-            <fieldset>
-
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-
-            </fieldset>
-
-        </form>
-
-        
-
-
-
-
-
-
-
-
-    </body>
-
+    </body>
 </html>
